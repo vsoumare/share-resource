@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Threadly</title>
+  <%= stylesheet_link_tag 'application', href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+   <div class="header">
+      <div class="container">
+        <h1>threadly</h1>
+        <p>Go ahead post your thoughts</p>
+      </div>
+   </div>
+<%= yield %>
+
+</body>
+</html>

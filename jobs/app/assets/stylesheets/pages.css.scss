@@ -1,0 +1,146 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.menu {
+    background-color: #000;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 240px;
+    left: -240px;
+    z-index: 1;
+}
+.menu li a, .menu li a:visited {
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 30px 40px;
+    text-decoration: none;
+}
+.main{
+    background: url(http://s.wallpaperhere.com/wallpapers/1920x1080/20111217/4eeca45dce9d5.jpg) center center;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+}
+.icon-menu {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    cursor: pointer;
+}
+.main h1{
+    
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 0 2px 3px rgba(0,0,0,0.4);
+}
+h1{
+    font-size: 50px;
+}
+
+
+.btn-primary {
+    background-color: #2E72BD;
+}
+.btn-default, .btn-primary {
+    border-radius: 0;
+    font-size: 16px;
+    padding: 12px 26px;
+}
+.supporting {
+    padding: 80px 0;
+    text-align: center;
+}
+.supporting h2 {
+    color: #000;
+    margin: 30px 0;
+}
+supporting p {
+    font-size: 21px;
+    font-weight: 100;
+}
+.secondary {
+    background: url(http://cdn.greenmedinfo.com/sites/default/files/ckeditor/Sayer%20Ji/images/sunlight_energy_ATP-captures.jpg) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+}
+.about {
+    color: #000;
+    margin: 30px 0;
+    padding: 80px 0;
+    text-align: center;
+}
+.about p {
+    font-size: 21px;
+    font-weight: 100;
+}
+.btn-primary {
+    background-color: #2E72BD;
+}
+.footer {
+    background-color: #f9f9f9;
+    border-top: solid 1px #F5F5F5;
+    padding: 40px 0 30px 0;
+    text-align: center;
+}
+.footer p {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #aaa;
+}
+.menu ul {
+    list-style: none;
+    padding-left: 0;
+}
+.about-main {
+    background: url(http://images.natureworldnews.com/data/images/full/12252/plant.jpg) no-repeat center center;
+    background-size: cover;
+    height: 700px;
+}
+.content {
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+.about-main .content {
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+.about-main h1 {
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 30px;
+    text-shadow: 0 2px 3px rgba(0,0,0,0.4);
+}
+supporting h2 {
+    color: #000;
+    margin: 30px 0;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 300;
+}
+.about-supporting p {
+    margin-top: 30px;
+}
+.home-supporting p, .about-supporting p {
+    font-size: 21px;
+    font-weight: 100;
+}
+.about-supporting p {
+    margin-top: 30px;
+}
+.btn-primary {
+    background-color: #2E72BD;
+}
+.btn-default, .btn-primary {
+    border-radius: 0;
+    font-size: 16px;
+    padding: 12px 26px;
+}

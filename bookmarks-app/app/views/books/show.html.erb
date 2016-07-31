@@ -1,0 +1,6 @@
+<h2><%= @book.review %></h2>
+<% @review.each do |r|%>
+<h2><%= r.author %></h2>
+<p><%= r.comment %></p>
+<p><%= r.book %></p>
+<% end %>

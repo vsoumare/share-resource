@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ZenithEast</title>
+  <%= stylesheet_link_tag 'application', href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="header">
+    <div class="container">
+    
+        <ul class="nav">
+            <li>About</li>
+            <li>Work</li>
+            <li>Team</li>
+            <li>Contact</li>
+        </ul>
+        
+    </div>
+</div>
+<%= yield %>
+<div class="footer">
+    <div class="container">
+        <p>© Dakar 2016</p>
+    </div>
+</div>
+</body>
+</html>

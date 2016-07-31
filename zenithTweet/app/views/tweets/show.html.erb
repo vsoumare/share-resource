@@ -1,0 +1,5 @@
+
+<h1><%= @tweet.status %></h1>
+<p>Posted by <%= link_to @tweet.zombie.name, tweet.zombie, confirm: "Are you sure?" %></p>
+<%= link_to "All Tweets", all_tweets_path %>
+<%= link_to "All Tweets", root_path %>

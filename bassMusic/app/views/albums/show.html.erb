@@ -1,0 +1,7 @@
+<h2><%= @album.title%></h2>
+<% @tracks.each do |t| %>
+  <ul>
+   <li> <%= t.name %> </li>
+   <li> <%= t.minutes %> </li>
+    </ul>
+<%end%>

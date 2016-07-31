@@ -1,0 +1,6 @@
+<h1>Index page</h1>
+<% @albums.each do |album| %>
+    <%= image_tag album.cover %>
+    <%= album.title %>
+    <%= album.artist %>
+<%end%>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jobs</title>
+  
+  <%= stylesheet_link_tag 'application', "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"  %>
+  <%= stylesheet_link_tag 'application', 'https://fonts.googleapis.com/css?family=Libre+Baskerville' %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="menu"> 
+    <ul> 
+        <li><a href="/">Home</a></li> 
+        <li><a href="/about">About</a></li>
+        <li><a href="/signups/new">Contact</a></li> 
+    </ul>
+    <img alt="Close" class="icon-close" src="/assets/close-0c9147fa56a8cfd00e1f6b29e91458dc.svg" width="24px"> 
+</div>
+
+<%= yield %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %><div class="footer">
+    <div class="container"> 
+        <p>A Shutterbugg Project</p>
+    </div>
+</div>
+  
+
+</body>
+</html>

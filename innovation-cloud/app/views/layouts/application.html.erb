@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>InnovationCloud</title>
+    <%= stylesheet_link_tag 'application', href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+    <div class="header">
+      <div class="container">
+        <h1>Innovation Cloud</h1>
+        <p>Connect your ideas globally</p>
+        <a class="btn" href="#">Learn More</a>
+      </div>
+    </div>
+    
+     <div class="nav">
+      <div class="container">
+        <ul>
+          <li>Register</li>
+          <li>Schedule</li>
+          <li>Sponsors</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+<%= yield %>
+  
+      <div class="footer">
+        <div class="container">
+           <p>&copy; Innovation Cloud Conference</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<% @books.each do |b|%>
+<h1><%= b.title %></h1>
+<p><%= b.author %></p>
+<p><%= b.description %></p>
+<p><%= b.publisher %></p>
+<p><%= b.weeks_on_list %></p>
+<p><%= b.rank_this_week %></p>
+<%= link_to "See details", book_path(b) %>
+<% end %>

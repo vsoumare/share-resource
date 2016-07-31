@@ -1,0 +1,9 @@
+<h2><%= @tag.title %></h2>
+<div class= "cards">
+    <% @destinations.each do |d| %>
+     <%= image_tag d.image %>
+     <%= d.name %>
+     <%= d.description %>
+     <%= link_to "See more", destination_path(d)%>
+     <% end %>
+</div>

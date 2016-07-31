@@ -1,0 +1,20 @@
+<h1>Listing tweets</h1>
+<table>
+    <tr>
+        <th>Status</th>
+        <th>Zombie</th>
+        
+    </tr>
+    <% @tweet.all.each do |tweet| %>
+        <tr>
+            <td><%= link_to @tweet.status, tweet %></td>
+            <td><%= link_to @tweet.zombie.name, tweet.zombie %></td>
+            <td><%= link_to "Edit", edit_tweet_path(tweet) %></td>
+            <td><%= link_to "Destroy", tweet, method: :delete %></td> 
+        </tr>
+        <%= link_to "Tweets in 32828", local_tweets_path(32828) %>
+        <% end %>
+        <% if tweets.size == 0 %>
+            <em> No Tweets Found </em>
+        <% end %>    
+</table>

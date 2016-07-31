@@ -1,0 +1,6 @@
+<% @albums.each do |a| %>
+<%= image_tag a.cover %>
+<%= a.title %>
+<%= a.artist %>
+<%= link_to "See details", album_path(a) %>
+<%end%>

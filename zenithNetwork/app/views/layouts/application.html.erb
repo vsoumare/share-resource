@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ZenithNetwork</title>
+  <%= stylesheet_link_tag 'application', href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+ <div class="jumbotron">
+       <div class="container">
+        <div class="header">
+          <div class="row">
+            <div class="col-md-2">
+              <a href="#">
+                <img src="http://s3.amazonaws.com/codecademy-content/projects/bolt-network/logo.svg" width="180" height="34">
+              </a>
+            </div>
+            <div class="pull-right">
+              <ul>
+                <li>
+                    <a href="#" class="btn btn-primary">Log in</a>
+                </li>
+                <li>
+                  <a href="#" class="btn btn-default">Sign up</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+   
+<%= yield %>
+  
+
+ <div class="footer">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-3">
+                   <h3>Bolt</h3>
+                   <ul>
+                       <li>Careers</li>
+                       <li>Terms</li>
+                       <li>Help</li>
+                   </ul>
+               </div>
+               <div class="col-md-3">
+                   <h3>More Bolt</h3>
+                   <ul>
+                       <li>Gift Cards</li>
+                       <li>Trailers</li>
+                       
+                   </ul>
+               </div>
+               <div class="col-md-3">
+                   <h3>News</h3>
+                   <ul>
+                       <li>Blog</li>
+                       <li>Twitter</li>
+                       <li>YouTube</li>
+                       <li>Google+</li>
+                       <li>Facebook</li>
+                   </ul>
+               </div>               
+           </div>
+       </div>
+   </div>
+</body>
+</html>
